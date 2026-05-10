@@ -473,7 +473,7 @@ class EmotionPredictorApp(QMainWindow):
 
     def send_kimi_request(self):
         # 硬编码 API Key
-        api_key = "sk-hQZTsGNS2XtGgwFOmM0hdWKz5YKPzeDExZ536FgoV5bMCmz0"  # 替换为实际的 API Key
+        api_key = ""  # 替换为实际的 API Key
         question = self.chat_input.text().strip()
 
         if not question:
